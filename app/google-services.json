@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1011121607990",
+    "project_id": "canuwashme",
+    "storage_bucket": "canuwashme.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011121607990:android:ba90fc9a14255e35d38f97",
+        "android_client_info": {
+          "package_name": "com.example.canuwashme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsJCdO_GPaCOplNO4xVl5YvN33XhabGg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

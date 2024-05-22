@@ -1,0 +1,61 @@
+<resources>
+    <string-array name="species">
+        <item>Perro</item>
+        <item>Gato</item>
+    </string-array>
+
+    <string-array name="dog_breeds">
+        <item>Labrador Retriever</item>
+        <item>German Shepherd</item>
+        <item>Golden Retriever</item>
+        <item>Bulldog</item>
+        <item>Poodle</item>
+        <item>Beagle</item>
+        <item>Rottweiler</item>
+        <item>Siberian Husky</item>
+        <item>Dachshund</item>
+        <item>Chihuahua</item>
+        <item>Pug</item>
+        <item>Boxer</item>
+        <item>Shih Tzu</item>
+        <item>Doberman</item>
+        <item>Great Dane</item>
+        <item>Border Collie</item>
+        <item>French Bulldog</item>
+        <item>Pomeranian</item>
+        <item>Australian Shepherd</item>
+        <item>Cocker Spaniel</item>
+    </string-array>
+
+    <string-array name="cat_breeds">
+        <item>Siamés</item>
+        <item>British Shorthair</item>
+        <item>Maine Coon</item>
+        <item>Persa</item>
+        <item>Ragdoll</item>
+        <item>Bengal</item>
+        <item>Abyssinian</item>
+        <item>Birmano</item>
+        <item>Somali</item>
+        <item>Sphynx</item>
+        <item>British Longhair</item>
+        <item>Burmés</item>
+        <item>Siberiano</item>
+        <item>Oriental</item>
+        <item>Manx</item>
+        <item>Scottish Fold</item>
+        <item>Turco Van</item>
+        <item>Noruego de Bosque</item>
+        <item>Devon Rex</item>
+        <item>Exótico de Pelo Corto</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>Macho</item>
+        <item>Hembra</item>
+    </string-array>
+
+    <string-array name="empty_array">
+        <item></item>
+    </string-array>
+</resources>

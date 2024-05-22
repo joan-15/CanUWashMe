@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/fondo">
+
+    <!-- Nombre del cliente -->
+    <TextView
+        android:id="@+id/textViewNombreCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_client_name"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextNombreCliente"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hint_enter"
+        android:textColorHint="@color/hint_color"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        android:textColor="@color/secondary_text"
+        android:backgroundTint="@color/accent_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNombreCliente" />
+
+    <!-- Teléfono de contacto -->
+    <TextView
+        android:id="@+id/textViewTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_phone"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNombreCliente"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextTelefono"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hint_enter"
+        android:textColorHint="@color/hint_color"
+        android:inputType="phone"
+        android:textSize="18sp"
+        android:textColor="@color/secondary_text"
+        android:backgroundTint="@color/accent_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTelefono" />
+
+    <!-- Dirección completa del domicilio -->
+    <TextView
+        android:id="@+id/textViewDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_address"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTelefono"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextDireccion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hint_enter"
+        android:textColorHint="@color/hint_color"
+        android:inputType="textPostalAddress"
+        android:textSize="18sp"
+        android:textColor="@color/secondary_text"
+        android:backgroundTint="@color/accent_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDireccion" />
+
+    <!-- Nombre de la mascota -->
+    <TextView
+        android:id="@+id/textViewNombreMascota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_pet_name"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDireccion"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextNombreMascota"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hint_enter"
+        android:textColorHint="@color/hint_color"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        android:textColor="@color/secondary_text"
+        android:backgroundTint="@color/accent_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNombreMascota" />
+
+    <!-- Especie -->
+    <TextView
+        android:id="@+id/textViewEspecie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_species"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNombreMascota"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerEspecie"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:entries="@array/species"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEspecie" />
+
+    <!-- Raza -->
+    <TextView
+        android:id="@+id/textViewRaza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_breed"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerEspecie"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerRaza"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:entries="@array/empty_array"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRaza" />
+
+    <!-- Edad de la mascota -->
+    <TextView
+        android:id="@+id/textViewEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_age"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerRaza"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextEdad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hint_enter"
+        android:textColorHint="@color/hint_color"
+        android:inputType="number"
+        android:textSize="18sp"
+        android:textColor="@color/secondary_text"
+        android:backgroundTint="@color/accent_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEdad" />
+
+    <!-- Peso aproximado -->
+    <TextView
+        android:id="@+id/textViewPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_weight"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEdad"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextPeso"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hint_enter"
+        android:textColorHint="@color/hint_color"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:textColor="@color/secondary_text"
+        android:backgroundTint="@color/accent_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPeso" />
+
+    <!-- Sexo de la mascota -->
+    <TextView
+        android:id="@+id/textViewSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_sex"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPeso"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerSexo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:entries="@array/sex"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSexo" />
+
+    <!-- Servicios -->
+    <TextView
+        android:id="@+id/textViewServicios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_services"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerSexo"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextServicios"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hint_enter"
+        android:textColorHint="@color/hint_color"
+        android:inputType="textMultiLine"
+        android:textSize="18sp"
+        android:textColor="@color/secondary_text"
+        android:backgroundTint="@color/accent_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewServicios" />
+
+    <!-- Observaciones -->
+    <TextView
+        android:id="@+id/textViewObservaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_notes"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextServicios"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextObservaciones"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hint_enter"
+        android:textColorHint="@color/hint_color"
+        android:inputType="textMultiLine"
+        android:textSize="18sp"
+        android:textColor="@color/secondary_text"
+        android:backgroundTint="@color/accent_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewObservaciones" />
+
+    <!-- Botón Continuar -->
+    <Button
+        android:id="@+id/buttonContinuar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Continuar"
+        android:textColor="@color/button_text"
+        android:backgroundTint="@color/button_background"
+        android:textSize="20sp"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextObservaciones"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botón Finalizar Cita -->
+    <Button
+        android:id="@+id/buttonFinalizarCita"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Finalizar Cita"
+        android:textColor="@color/button_text"
+        android:backgroundTint="@color/button_background"
+        android:textSize="20sp"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonContinuar"
+        android:layout_marginTop="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
