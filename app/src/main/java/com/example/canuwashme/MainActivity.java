@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 Intent intent = new Intent(MainActivity.this, Bienvenida.class);
                 startActivity(intent);
-                finish(); // Cierra la MainActivity para evitar que el usuario vuelva atrás
+                finish();
             }
         }, ANIMATION_DURATION);
     }

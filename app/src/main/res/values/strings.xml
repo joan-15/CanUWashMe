@@ -1,5 +1,5 @@
 <resources>
-    <!-- Labels -->
+
     <string name="label_client_name">Nombre del cliente</string>
     <string name="label_phone">Teléfono de contacto</string>
     <string name="label_address">Dirección completa del domicilio</string>
@@ -12,13 +12,13 @@
     <string name="label_services">Servicios solicitados</string>
     <string name="label_notes">Observaciones</string>
 
-    <!-- Hints -->
+
     <string name="hint_enter">Ingrese aquí</string>
 
-    <!-- Button -->
+
     <string name="button_confirm">Confirmar</string>
     <string name="app_name">CanUWashMe</string>
-    <!-- strings.xml -->
+
     <string name="bienvenida_titulo">Can U Wash Me</string>
     <string name="bienvenida_descripcion">Servicio de baño a domicilio para mascotas. Ofrecemos la solución perfecta para aquellos dueños que no tienen tiempo para bañar a sus mascotas.</string>
 

@@ -7,7 +7,7 @@
     android:padding="16dp"
     android:background="@drawable/fondo">
 
-    <!-- Nombre del cliente -->
+
     <TextView
         android:id="@+id/textViewNombreCliente"
         android:layout_width="wrap_content"
@@ -37,7 +37,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewNombreCliente" />
 
-    <!-- Teléfono de contacto -->
+
     <TextView
         android:id="@+id/textViewTelefono"
         android:layout_width="wrap_content"
@@ -67,7 +67,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewTelefono" />
 
-    <!-- Dirección completa del domicilio -->
+
     <TextView
         android:id="@+id/textViewDireccion"
         android:layout_width="wrap_content"
@@ -97,7 +97,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewDireccion" />
 
-    <!-- Nombre de la mascota -->
+
     <TextView
         android:id="@+id/textViewNombreMascota"
         android:layout_width="wrap_content"
@@ -127,7 +127,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewNombreMascota" />
 
-    <!-- Especie -->
+
     <TextView
         android:id="@+id/textViewEspecie"
         android:layout_width="wrap_content"
@@ -150,7 +150,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewEspecie" />
 
-    <!-- Raza -->
+
     <TextView
         android:id="@+id/textViewRaza"
         android:layout_width="wrap_content"
@@ -173,7 +173,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewRaza" />
 
-    <!-- Edad de la mascota -->
+
     <TextView
         android:id="@+id/textViewEdad"
         android:layout_width="wrap_content"
@@ -203,7 +203,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewEdad" />
 
-    <!-- Peso aproximado -->
+
     <TextView
         android:id="@+id/textViewPeso"
         android:layout_width="wrap_content"
@@ -233,7 +233,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewPeso" />
 
-    <!-- Sexo de la mascota -->
+
     <TextView
         android:id="@+id/textViewSexo"
         android:layout_width="wrap_content"
@@ -256,7 +256,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewSexo" />
 
-    <!-- Servicios -->
+
     <TextView
         android:id="@+id/textViewServicios"
         android:layout_width="wrap_content"
@@ -286,7 +286,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewServicios" />
 
-    <!-- Observaciones -->
+
     <TextView
         android:id="@+id/textViewObservaciones"
         android:layout_width="wrap_content"
@@ -316,7 +316,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewObservaciones" />
 
-    <!-- Botón Continuar -->
+
     <Button
         android:id="@+id/buttonContinuar"
         android:layout_width="0dp"
@@ -331,7 +331,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextObservaciones"
         android:layout_marginTop="16dp" />
 
-    <!-- Botón Finalizar Cita -->
+
     <Button
         android:id="@+id/buttonFinalizarCita"
         android:layout_width="0dp"
