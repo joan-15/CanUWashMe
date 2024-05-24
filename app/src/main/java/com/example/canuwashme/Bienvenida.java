@@ -31,4 +31,11 @@ public class Bienvenida extends AppCompatActivity {
     }
 
 
+    public void agendarCita(View view) {
+        Intent intent = new Intent(this, Pantalla2.class);
+        startActivity(intent);
+    }
+}
+
+
 
