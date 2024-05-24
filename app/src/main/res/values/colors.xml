@@ -1,0 +1,9 @@
+<resources>
+    <color name="background_color">#F5F5F5</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="accent_color">#3F51B5</color>
+    <color name="hint_color">#BDBDBD</color>
+    <color name="button_background">#3F51B5</color>
+    <color name="button_text">#FFFFFF</color>
+</resources>
