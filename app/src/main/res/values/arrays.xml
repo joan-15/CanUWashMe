@@ -1,31 +1,4 @@
-<resources>
-    <string-array name="species">
-        <item>Perro</item>
-        <item>Gato</item>
-    </string-array>
 
-    <string-array name="dog_breeds">
-        <item>Labrador Retriever</item>
-        <item>German Shepherd</item>
-        <item>Golden Retriever</item>
-        <item>Bulldog</item>
-        <item>Poodle</item>
-        <item>Beagle</item>
-        <item>Rottweiler</item>
-        <item>Siberian Husky</item>
-        <item>Dachshund</item>
-        <item>Chihuahua</item>
-        <item>Pug</item>
-        <item>Boxer</item>
-        <item>Shih Tzu</item>
-        <item>Doberman</item>
-        <item>Great Dane</item>
-        <item>Border Collie</item>
-        <item>French Bulldog</item>
-        <item>Pomeranian</item>
-        <item>Australian Shepherd</item>
-        <item>Cocker Spaniel</item>
-    </string-array>
 
     <string-array name="cat_breeds">
         <item>Siamés</item>
