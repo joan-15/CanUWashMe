@@ -47,3 +47,5 @@
         android:onClick="agendarCita" />
 
 </RelativeLayout>
+
+//eliminar despues
