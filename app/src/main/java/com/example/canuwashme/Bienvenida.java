@@ -3,9 +3,11 @@ package com.example.canuwashme;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.view.View;
+
+import com.makeramen.roundedimageview.RoundedImageView;
+import com.squareup.picasso.Picasso;
 
 public class Bienvenida extends AppCompatActivity {
 
@@ -13,7 +15,6 @@ public class Bienvenida extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bienvenida);
-
 
         String titulo = getString(R.string.bienvenida_titulo);
         String descripcion = getString(R.string.bienvenida_descripcion);
@@ -24,18 +25,16 @@ public class Bienvenida extends AppCompatActivity {
         tvTitulo.setText(titulo);
         tvDescripcion.setText(descripcion);
 
-
-        ImageView imageView = findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.logo);
-
+        RoundedImageView imageView = findViewById(R.id.imageView);
+        Picasso.get()
+                .load(R.drawable.logo) // Reemplaza con tu recurso de imagen o URL
+                .fit()
+                .centerCrop()
+                .into(imageView);
     }
-
 
     public void agendarCita(View view) {
         Intent intent = new Intent(this, Pantalla2.class);
         startActivity(intent);
     }
 }
-
-
-
