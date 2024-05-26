@@ -1,15 +1,39 @@
-
 .container {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
+    padding: 16px;
+    text-align: center; /* Centra los elementos horizontalmente */
 }
 
-h1 {
-    color: #333;
+.rounded-image {
+    border-radius: 50%; /* Convierte la imagen en circular */
+    width: 200px;
+    height: 200px;
+    margin-bottom: 16px;
 }
 
-p {
-    color: #666;
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 16px;
+}
+
+.description {
+    font-size: 16px;
+    color: #000;
+    margin-top: 8px;
+}
+
+.cta-button {
+    width: 200px; /* Ancho fijo para el botón */
+    background-color: #007bff;
+    color: #fff;
     font-size: 18px;
+    padding: 16px;
+    margin: 16px auto; /* Centra el botón horizontalmente */
+    border: none;
+    border-radius: 8px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
 }

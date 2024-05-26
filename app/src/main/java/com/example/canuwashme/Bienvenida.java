@@ -27,7 +27,7 @@ public class Bienvenida extends AppCompatActivity {
 
         RoundedImageView imageView = findViewById(R.id.imageView);
         Picasso.get()
-                .load(R.drawable.logo) // Reemplaza con tu recurso de imagen o URL
+                .load(R.drawable.logo)
                 .fit()
                 .centerCrop()
                 .into(imageView);

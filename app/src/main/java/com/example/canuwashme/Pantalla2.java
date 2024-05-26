@@ -325,4 +325,3 @@ public class Pantalla2 extends AppCompatActivity {
                     }
                 });
     }}
-

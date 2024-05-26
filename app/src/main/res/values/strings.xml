@@ -21,6 +21,6 @@
 
     <string name="bienvenida_titulo">Can U Wash Me</string>
     <string name="bienvenida_descripcion">Servicio de baño a domicilio para mascotas. Ofrecemos la solución perfecta para aquellos dueños que no tienen tiempo para bañar a sus mascotas.</string>
-
+    <string name="label_appointment_date">Fecha de la Cita</string>
 
 </resources>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenida</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza el archivo de estilos -->
+</head>
+<body>
+<div class="container">
+    <img src="logo.jpg" class="rounded-image" alt="Logo">
+    <h1 class="title">Título</h1>
+    <p class="description">Descripción</p>
+    <button class="cta-button" id="btnAgendarCita">¡Agenda Tu Cita Ya!</button>
+</div>
+<script>
+        // Función que maneja el clic del botón
+        document.getElementById('btnAgendarCita').addEventListener('click', function() {
+            // Llama a la función 'agendarCita' definida en Android
+            window.android.agendarCita();
+        });
+    </script>
+</body>
+</html>
