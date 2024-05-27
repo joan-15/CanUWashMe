@@ -15,7 +15,7 @@
         android:text="@string/label_client_name"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="@color/primary_text"
+        android:textColor="@color/blanco"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="16dp" />
@@ -45,7 +45,7 @@
         android:text="@string/label_phone"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="@color/primary_text"
+        android:textColor="@color/blanco"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNombreCliente"
         android:layout_marginTop="16dp" />
@@ -75,7 +75,7 @@
         android:text="@string/label_address"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="@color/primary_text"
+        android:textColor="@color/blanco"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTelefono"
         android:layout_marginTop="16dp" />
@@ -105,7 +105,7 @@
         android:text="@string/label_pet_name"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="@color/primary_text"
+        android:textColor="@color/blanco"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextDireccion"
         android:layout_marginTop="16dp" />
@@ -135,7 +135,7 @@
         android:text="@string/label_species"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="@color/primary_text"
+        android:textColor="@color/blanco"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNombreMascota"
         android:layout_marginTop="16dp" />
@@ -158,7 +158,7 @@
         android:text="@string/label_breed"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="@color/primary_text"
+        android:textColor="@color/blanco"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinnerEspecie"
         android:layout_marginTop="16dp" />
@@ -181,7 +181,7 @@
         android:text="@string/label_age"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="@color/primary_text"
+        android:textColor="@color/blanco"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinnerRaza"
         android:layout_marginTop="16dp" />
@@ -211,7 +211,7 @@
         android:text="@string/label_weight"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="@color/primary_text"
+        android:textColor="@color/blanco"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextEdad"
         android:layout_marginTop="16dp" />
@@ -241,7 +241,7 @@
         android:text="@string/label_sex"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="@color/primary_text"
+        android:textColor="@color/blanco"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextPeso"
         android:layout_marginTop="16dp" />
@@ -264,7 +264,7 @@
         android:text="@string/label_services"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="@color/primary_text"
+        android:textColor="@color/blanco"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinnerSexo"
         android:layout_marginTop="16dp" />
@@ -294,7 +294,7 @@
         android:text="@string/label_notes"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="@color/primary_text"
+        android:textColor="@color/blanco"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextServicios"
         android:layout_marginTop="16dp" />
@@ -323,7 +323,7 @@
         android:layout_height="wrap_content"
         android:text="Continuar"
         android:textColor="@color/button_text"
-        android:backgroundTint="@color/button_background"
+        android:backgroundTint="@color/accent_color"
         android:textSize="20sp"
         app:cornerRadius="8dp"
         app:layout_constraintEnd_toEndOf="parent"
