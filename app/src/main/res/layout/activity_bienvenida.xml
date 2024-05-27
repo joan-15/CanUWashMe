@@ -2,6 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondoverde"
     android:padding="16dp">
 
     <com.makeramen.roundedimageview.RoundedImageView
@@ -22,9 +23,10 @@
         android:layout_below="@id/imageView"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="@android:color/black"
+        android:textColor="#FFFFFF"
         android:layout_marginTop="16dp"
-        android:text="Título" />
+        android:background="@drawable/title_background"
+        android:text="@string/bienvenida_titulo" />
 
     <TextView
         android:id="@+id/tvDescripcion"
@@ -33,18 +35,36 @@
         android:layout_below="@id/tvTitulo"
         android:layout_marginTop="8dp"
         android:textSize="16sp"
-        android:textColor="@android:color/black"
-        android:text="Descripción" />
+        android:textColor="#FFFFFF"
+        android:background="@drawable/description_background"
+        android:text="@string/bienvenida_descripcion" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnAgendaCita"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:text="¡Agenda Tu Cita Ya!"
         android:textSize="18sp"
-        android:textColor="@android:color/white"
-        android:padding="16dp"
         android:layout_margin="16dp"
-        android:onClick="agendarCita" />
+        android:onClick="agendarCita"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:strokeColor="@color/secondaryVariant"
+        app:strokeWidth="2dp"
+        android:textColor="@color/blanco"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnVerCitasAgendadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnAgendaCita"
+        android:text="Ver Citas Agendadas"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        android:onClick="verCitasAgendadas"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:strokeColor="@color/secondaryVariant"
+        app:strokeWidth="2dp"
+        android:textColor="@color/blanco"/>
+
 </RelativeLayout>

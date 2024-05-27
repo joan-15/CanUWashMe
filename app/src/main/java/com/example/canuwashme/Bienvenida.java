@@ -37,4 +37,9 @@ public class Bienvenida extends AppCompatActivity {
         Intent intent = new Intent(this, Pantalla2.class);
         startActivity(intent);
     }
+
+    public void verCitasAgendadas(View view) {
+        Intent intent = new Intent(this, CitasAgendadas.class);
+        startActivity(intent);
+    }
 }
