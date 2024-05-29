@@ -39,6 +39,16 @@
         android:background="@drawable/description_background"
         android:text="@string/bienvenida_descripcion" />
 
+    <TextView
+        android:id="@+id/tvSaludo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDescripcion"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/bienvenida_saludo" />
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnAgendaCita"
         android:layout_width="match_parent"

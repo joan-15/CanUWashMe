@@ -6,7 +6,7 @@
     <string name="label_pet_name">Nombre de la mascota</string>
     <string name="label_species">Especie</string>
     <string name="label_breed">Raza</string>
-    <string name="label_age">Edad de la mascota</string>
+    <string name="label_age">Edad de la mascota (En Meses)</string>
     <string name="label_weight">Peso aproximado en (Kg)</string>
     <string name="label_sex">Sexo de la mascota</string>
     <string name="label_services">Servicios solicitados</string>
@@ -17,5 +17,7 @@
     <string name="bienvenida_titulo">Can U Wash Me</string>
     <string name="bienvenida_descripcion">Servicio de baño a domicilio para mascotas. Ofrecemos la solución perfecta para aquellos dueños que no tienen tiempo para bañar a sus mascotas.</string>
     <string name="label_appointment_date">Fecha de la Cita</string>
+    <string name="bienvenida_saludo">¡Bienvenido %1$s! Te presentamos CanUWashMe!</string>
+
 
 </resources>
