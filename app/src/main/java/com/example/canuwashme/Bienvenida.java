@@ -41,4 +41,9 @@ public class Bienvenida extends AppCompatActivity {
         Intent intent = new Intent(this, CitasAgendadas.class);
         startActivity(intent);
     }
+
+    public void recordarCita(View view) {
+        Intent intent = new Intent(this, Notificacion.class);
+        startActivity(intent);
+    }
 }

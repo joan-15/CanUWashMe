@@ -39,8 +39,6 @@
         android:background="@drawable/description_background"
         android:text="@string/bienvenida_descripcion" />
 
-
-
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnAgendaCita"
         android:layout_width="match_parent"
@@ -64,6 +62,20 @@
         android:textSize="18sp"
         android:layout_margin="16dp"
         android:onClick="verCitasAgendadas"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:strokeColor="@color/secondaryVariant"
+        app:strokeWidth="2dp"
+        android:textColor="@color/blanco"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRecordarCita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnVerCitasAgendadas"
+        android:text="Recordar Cita"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        android:onClick="recordarCita"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         app:strokeColor="@color/secondaryVariant"
         app:strokeWidth="2dp"

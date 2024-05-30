@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/tvFechaHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione fecha y hora"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnSeleccionarFechaHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Fecha y Hora"
+        android:layout_below="@id/tvFechaHora"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnProgramarNotificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Programar Notificación"
+        android:layout_below="@id/btnSeleccionarFechaHora" />
+
+</RelativeLayout>

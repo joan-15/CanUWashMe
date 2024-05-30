@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.canuwashme">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
 
     <application
         android:allowBackup="true"
@@ -13,33 +18,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CanUWashMe"
         tools:targetApi="31">
-        <activity
-            android:name=".Exito"
-            android:exported="false" />
-        <activity
-            android:name=".Login"
-            android:exported="false" />
-        <activity
-            android:name=".Registro"
-            android:exported="false" />
-        <activity
-            android:name=".CitasAgendadas"
-            android:exported="false" />
-        <activity
-            android:name=".Bienvenida"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+
+
+        <activity android:name=".Bienvenida" android:exported="false"/>
+        <activity android:name=".Notificacion" android:exported="false"/>
+        <activity android:name=".CitasAgendadas" android:exported="false"/>
+        <activity android:name=".Pantalla2" android:exported="false"/>
+        <activity android:name=".Exito" android:exported="false"/>
+        <activity android:name=".Login" android:exported="false"/>
+
+
+        <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Pantalla2"
-            android:exported="false" />
+
+        <receiver android:name=".NotificationReceiver" android:exported="true"/>
     </application>
 
 </manifest>
