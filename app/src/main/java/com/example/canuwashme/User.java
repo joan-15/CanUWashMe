@@ -3,10 +3,10 @@ package com.example.canuwashme;
 public class User {
     private String email;
     private String password;
-    private String nickname; // Nuevo campo para el apodo
+    private String nickname;
 
     public User() {
-        // Constructor vacío requerido para Firestore
+
     }
 
     public User(String email, String password, String nickname) {

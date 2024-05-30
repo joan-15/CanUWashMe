@@ -30,13 +30,6 @@ public class Bienvenida extends AppCompatActivity {
                 .fit()
                 .centerCrop()
                 .into(imageView);
-
-        // Obtener el nombre de usuario y apodo pasado desde la actividad de inicio de sesión
-        String username = getIntent().getStringExtra("email");
-        String nickname = getIntent().getStringExtra("nickname");
-        // Mostrar un mensaje de bienvenida personalizado con el apodo
-        TextView tvSaludo = findViewById(R.id.tvSaludo);
-        tvSaludo.setText("¡Bienvenido " + nickname + "! Te presentamos CanUWashMe!");
     }
 
     public void agendarCita(View view) {

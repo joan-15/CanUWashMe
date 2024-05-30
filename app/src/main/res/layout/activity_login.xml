@@ -2,7 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondoverde"
+    android:background="@drawable/fondo"
     android:padding="16dp">
 
     <EditText
@@ -11,7 +11,8 @@
         android:layout_height="wrap_content"
         android:hint="Correo electrónico"
         android:inputType="textEmailAddress"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginBottom="16dp"
+        android:textColorHint="@android:color/white"/>
 
     <EditText
         android:id="@+id/editTextPassword"
@@ -20,7 +21,8 @@
         android:hint="Contraseña"
         android:inputType="textPassword"
         android:layout_below="@id/editTextUsername"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginBottom="16dp"
+        android:textColorHint="@android:color/white"/>
 
     <EditText
         android:id="@+id/editTextNickname"
@@ -29,21 +31,33 @@
         android:hint="¿Cómo te gustaría que te llamáramos?"
         android:inputType="text"
         android:layout_below="@id/editTextPassword"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginBottom="16dp"
+        android:textColorHint="@android:color/white"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Registrarse"
         android:layout_below="@id/editTextNickname"
-        android:layout_marginBottom="8dp" />
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:strokeColor="@color/secondaryVariant"
+        app:strokeWidth="2dp"
+        android:textColor="@color/blanco"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Iniciar sesión"
-        android:layout_below="@id/buttonRegister" />
+        android:layout_below="@id/buttonRegister"
+        android:textSize="18sp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:strokeColor="@color/secondaryVariant"
+        app:strokeWidth="2dp"
+        android:textColor="@color/blanco"/>
+
 
 </RelativeLayout>
